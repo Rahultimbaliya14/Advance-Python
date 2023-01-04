@@ -1,3 +1,3 @@
 import tkinter as t
-a=t.Tk()
+a=t.Tk1()
 a.mainloop()

@@ -18,7 +18,7 @@ italic=Button(root,text="Italic",command=italic1 )
 Underline=Button(root,text="Underline",command=underline1)
 bold.pack(pady=20)
 italic.pack(pady=20)
-Underline.pack(pady=20 )
+Underline.pack(pady=2 )
 lable=Label(root,text="This Is Text")
 lable.pack(pady=30)
 
