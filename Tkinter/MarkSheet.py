@@ -34,7 +34,7 @@ def printdata():
     labletotal=Label(top,text="Total :"+str(total),anchor=CENTER)
     lablepr=Label(top,text="Persentage :"+str(int(pr))   ,anchor=CENTER)
     lablegrade=Label(top,text="Grade :"+grade,anchor=CENTER)
-    button=pButton(top,text="Close",command=top.quit)
+    button=Button(top,text="Close",command=top.quit)
 
     lablemr1.grid(row=1,pady=10,padx=40)
     lablemr2.grid(row=2,pady=10,padx=40)
